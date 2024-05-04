@@ -1,4 +1,5 @@
-import "./style.css";
+import './style.css';
+
 
 document.querySelector("#app").innerHTML = `
     <div id="fixed-wall">
@@ -35,18 +36,17 @@ document.querySelector("#app").innerHTML = `
                 <div class="neptune"></div>
             </div>
         </div> 
-        <div class="info-box"><p>I'm Christopher Jiménez, a computer enthusiast and software engineering student. 
-        From a young age, I've been fascinated by the world of computers and technology, 
-        always seeking ways to use them to create new and exciting things. 
-        I love learning about the latest advancements in software and hardware, 
-        and I'm always looking for new challenges to test my skills.</p></div>
-        
     </div>
     
     
     <header class="fst-cont">
     <h1 class="fst-tittle">Christopher Jiménez</h1>
     <p class="occupation-label">Computer Engineer Student</p>
+    <div class="info-box"><p>I'm Christopher Jiménez, a computer enthusiast and software engineering student. 
+    From a young age, I've been fascinated by the world of computers and technology, 
+    always seeking ways to use them to create new and exciting things. 
+    I love learning about the latest advancements in software and hardware, 
+    and I'm always looking for new challenges to test my skills.</p></div>
     <div class="gthb">
     <a href="https://github.com/Christopher1998">
     <img class="img_github" src="./images/github.png">
@@ -56,4 +56,12 @@ document.querySelector("#app").innerHTML = `
     </a>
     </div>
     </header>
+    <div class="projects-container">
+    <h1 class="sec_title">Projects</h1>
+    <div class="fst_p">
+    <ol>
+        <li><a class="lnk_p_t" href="https://christopher1998.github.io/Periodic_table/">Periodic Table</a></li>   
+    </ol>
+    </div>
+    </div>
 `;

@@ -32,6 +32,25 @@ $pad: max(20px, 4vmin);
   font-weight: 100;
                                                 
 }
+a {
+  text-decoration: none;
+}
+ol {
+  list-style: none;
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ol li {
+  background: url('./images/star.png') no-repeat left center; /* Ruta de la imagen */
+  background-size: 15px 15px; /* Ancho y altura */
+  padding-left: 25px; /* Espacio para la imagen */
+  margin-bottom: 5px; /* Espacio entre elementos */
+}
 
 //Posicionamiento del fondo de la pagina con sus respectivas animaciones. - Positioning of the page background with their respective animations.
 #app {
@@ -326,18 +345,41 @@ $pad: max(20px, 4vmin);
 .info:hover {
   color: wheat;
 }
+.gthb {
+  position: absolute;
+  top: calc(max(20px, 4vmin) * 20);
+
+}
+//Div container for projects
+.projects-container {
+  width: 300px;
+  height: 400px;
+  z-index: 1;
+  position: absolute;
+  right: calc(($pad)*2);;
+  top: calc(($pad) *2);
+}
+//Second title
+.sec_title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
 
 //Media query para telefonos mobiles con pantallas pequenas.
 //Media query for mobile cellphones with small screen.
 @media screen and (max-width: 480px) {
   #app {
-    color: wheat;
+    color: rgb(114, 112, 112);;
   }
   .info-box {
     display: none;
   }
   .fst-tittle {
     font-size: 25px;
+  }
+  .sec_title {
+    font-size: 18px;
   }
   .occupation-label {
     margin-top: 3px;
@@ -355,6 +397,18 @@ $pad: max(20px, 4vmin);
   }
   .cv:hover {
     color: white;
+  }
+  .gthb {
+    position: absolute;
+    top: calc(max(20px, 4vmin) * 30);
+  }
+  .projects-container {
+    width: 300px;
+    height: 110px;
+    z-index: 1;
+    position: absolute;
+    right: calc(max(20px, 4vmin) * 2);
+    top: calc(max(20px, 4vmin) * 5);
   }
   .solar-system {
     width: 50px;
@@ -521,11 +575,7 @@ $pad: max(20px, 4vmin);
   width: 25px;
   height: 25px;
 }
-.gthb {
-  position: absolute;
-  top: calc(max(20px, 4vmin) * 20);
 
-}
 .img_lkn {
   width: 25px;
   height: 25px;
@@ -533,5 +583,18 @@ $pad: max(20px, 4vmin);
 }
 
 
-
+//Div first project
+.fst_p {
+  width: auto;
+  height: 150px;
+}
+//Hyperlink for my projects
+.lnk_p_t {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(114, 112, 112);
+}
+.lnk_p_t:hover {
+  color: rgb(160, 160, 160);
+}
 
