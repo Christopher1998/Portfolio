@@ -3,6 +3,7 @@ $wallpaper-color: #212121;
 $pad: max(20px, 4vmin);
 
 
+
 //Keyframes
 //This keyframe resembles an orbit.
 //Este keyframe crea una animacion que asemeja la orbita de un planeta.
@@ -325,7 +326,7 @@ ol li {
 }
 
 .info-box {
-  font-size: 15qpx;
+  font-size: 15px;
   width: 400px;
   height: 200px;
   position: fixed;
@@ -345,11 +346,7 @@ ol li {
 .info:hover {
   color: wheat;
 }
-.gthb {
-  position: absolute;
-  top: calc(max(20px, 4vmin) * 20);
 
-}
 //Div container for projects
 .projects-container {
   width: 300px;
@@ -366,11 +363,19 @@ ol li {
   margin-bottom: 10px;
 }
 
+
+
 //Media query para telefonos mobiles con pantallas pequenas.
 //Media query for mobile cellphones with small screen.
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 390px) and (max-height: 844px) {
   #app {
     color: rgb(114, 112, 112);;
+  }
+  #Gthb.gthb {
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+    z-index: 1;
   }
   .info-box {
     display: none;
@@ -398,9 +403,14 @@ ol li {
   .cv:hover {
     color: white;
   }
-  .gthb {
+  
+
+  .Hlinks {
     position: absolute;
-    top: calc(max(20px, 4vmin) * 30);
+    width: 330px;
+    height: 150px;
+    bottom: 30px;
+    left: 30px;
   }
   .projects-container {
     width: 300px;
@@ -570,6 +580,19 @@ ol li {
     background-color: blue;
   }
 }
+@media screen and (min-width: 1280px) and (max-width: 1440px) { 
+  .info-box {
+    font-size: 15px;
+    width: 255px;
+    height: 250px;
+    position: fixed;
+    top: 11pc;
+    left: calc(max(20px, 4vmin) * 2);
+    line-height: 23px;
+    margin-top: 20px;
+  }
+
+}
 
 .img_github {
   width: 25px;
@@ -597,4 +620,9 @@ ol li {
 .lnk_p_t:hover {
   color: rgb(160, 160, 160);
 }
-
+.gthb {
+  position: absolute;
+  left: calc(($pad) * 2);
+  z-index: 1;
+  bottom: 6%;
+}

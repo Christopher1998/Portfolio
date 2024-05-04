@@ -1,5 +1,4 @@
-import './style.css';
-
+import "./style.css";
 
 document.querySelector("#app").innerHTML = `
     <div id="fixed-wall">
@@ -47,14 +46,6 @@ document.querySelector("#app").innerHTML = `
     always seeking ways to use them to create new and exciting things. 
     I love learning about the latest advancements in software and hardware, 
     and I'm always looking for new challenges to test my skills.</p></div>
-    <div class="gthb">
-    <a href="https://github.com/Christopher1998">
-    <img class="img_github" src="./images/github.png">
-    </a>
-    <a href="https://www.linkedin.com/in/cristofer-jiménez-417540302/">
-    <img class="img_lkn" src="./images/linkedin.png">
-    </a>
-    </div>
     </header>
     <div class="projects-container">
     <h1 class="sec_title">Projects</h1>
@@ -64,4 +55,13 @@ document.querySelector("#app").innerHTML = `
     </ol>
     </div>
     </div>
+    <footer class="Hlinks"> 
+    <div id="Gthb" class="gthb">
+    <a href="https://github.com/Christopher1998">
+    <img class="img_github" src="images/github.png">
+    </a>
+    <a href="https://www.linkedin.com/in/cristofer-jiménez-417540302/">
+    <img class="img_lkn" src="images/linkedin.png">
+    </a>
+    </div></footer>
 `;
