@@ -58,10 +58,10 @@ document.querySelector("#app").innerHTML = `
     <footer class="Hlinks"> 
     <div id="Gthb" class="gthb">
     <a href="https://github.com/Christopher1998">
-    <img class="img_github" src="images/github.png">
+    <img class="img_github" src="/PortfolioChristopher/assets/github.png">
     </a>
     <a href="https://www.linkedin.com/in/cristofer-jiménez-417540302/">
-    <img class="img_lkn" src="images/linkedin.png">
+    <img class="img_lkn" src="/PortfolioChristopher/assets/linkedin.png">
     </a>
     </div></footer>
 `;

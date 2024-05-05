@@ -1,7 +1,14 @@
 /* Variables */
 $wallpaper-color: #212121;
 $pad: max(20px, 4vmin);
+@media screen and (max-width: 360px) and (max-height: 720px) {
 
+  .fst_p {
+   margin-left: 7%;
+  }
+ 
+ 
+  }
 
 
 //Keyframes
@@ -593,6 +600,8 @@ ol li {
   }
 
 }
+
+
 
 .img_github {
   width: 25px;
