@@ -49,7 +49,8 @@
     <h1 class="sec_title">Projects</h1>
     <div class="fst_p">
     <ol>
-        <li><a class="lnk_p_t" href="https://christopher1998.github.io/Periodic_table/">Periodic Table</a></li>   
+        <li><a class="lnk_p_t" href="https://christopher1998.github.io/Periodic_table/">Periodic Table</a></li>
+        <li><a class="lnk_p_t" href="https://github.com/Christopher1998/BlocNotes">App BlocNotes</a></li>      
     </ol>
     </div>
     </div>
