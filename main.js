@@ -51,17 +51,18 @@ document.querySelector("#app").innerHTML = `
     <h1 class="sec_title">Projects</h1>
     <div class="fst_p">
     <ol>
-        <li><a class="lnk_p_t" href="https://christopher1998.github.io/Periodic_table/">Periodic Table</a></li>   
+        <li><a class="lnk_p_t" href="https://christopher1998.github.io/Periodic_table/">Periodic Table</a></li>
+        <li><a class="lnk_p_t" href="https://github.com/Christopher1998/BlocNotes">Periodic Table</a></li>      
     </ol>
     </div>
     </div>
     <footer class="Hlinks"> 
     <div id="Gthb" class="gthb">
     <a href="https://github.com/Christopher1998">
-    <img class="img_github" src="/PortfolioChristopher/assets/github.png">
+    <img class="img_github" src="/Portfolio/assets/github.png">
     </a>
     <a href="https://www.linkedin.com/in/cristofer-jiménez-417540302/">
-    <img class="img_lkn" src="/PortfolioChristopher/assets/linkedin.png">
+    <img class="img_lkn" src="/Portfolio/assets/linkedin.png">
     </a>
     </div></footer>
 `;
